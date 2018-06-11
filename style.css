@@ -1,0 +1,46 @@
+body {
+  background: url('img/bck.jpg') #222 no-repeat fixed center;
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.beready {
+  margin-top: 35vh;
+  color: white;
+  font-weight: lighter;
+  line-height: 0.7em;
+  font-size: 250px;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 80%;
+}
+
+.buttondiv {
+  margin-top: 15vh;
+
+}
+
+.button, .button:visited, .button:checked, .button:active, .button:focus {
+  background-color: #d4ab39;
+  border: 0px;
+  width: 40%;
+  font-weight: bold;
+  font-size: 1.8em;
+  box-shadow: 2px 3px 20px #222;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: #d4ab39;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .beready {
+    font-size: 150px;
+  }
+  .button, .button:visited, .button:checked, .button:active, .button:focus {
+    width: 60%;
+  }
+}
